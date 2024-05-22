@@ -1,0 +1,22 @@
+{
+    "name": "ScreenRecord",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab",
+        "tabCapture",
+        "storage",
+        "audioCapture",
+        "tabs",
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "128": "static/img/stop.png"
+        }
+    },
+    "icons": {
+        "128": "static/img/stop.png"
+    }
+}
